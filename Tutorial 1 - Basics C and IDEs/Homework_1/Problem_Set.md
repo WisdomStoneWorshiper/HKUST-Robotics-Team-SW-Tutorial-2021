@@ -32,6 +32,10 @@ Input:
 Output:
 `A Range`
 
+### Assumption
+
+* `0.0 <= input <= 100.0`
+
 > :exclamation: No need to handle non-numerical inputs such as "abc" and "ilovetimwoo")
 
 Skeleton Code is provided: [Skeleton Code for "Absolute Grading"](https://github.com/HKUST-Robotics-Team/Software-Tutorial-2021/blob/master/Tutorial%201%20-%20Basics%20C%20and%20IDEs/Homework_1/Skeleton_Code/Absolute_Grading/main.c)
@@ -95,7 +99,10 @@ Input:
 Output:
 `4.5`
 
-Tips: Using Switch Statement is highly recommanded.
+### Assumption
+
+* `<number>`: It should an integral value.
+* When we perform integer devision, unlike C programming, it should return a floating point value instead of an integer.
 
 Skeleton Code is provided: [Skeleton Code for "Simple Calculator"](https://github.com/HKUST-Robotics-Team/Software-Tutorial-2021/tree/master/Tutorial%201%20-%20Basics%20C%20and%20IDEs/Homework_1/Skeleton_Code/Simple_Calculator)
 
@@ -136,6 +143,8 @@ However, scores can be multiplicated when you can eliminate 5 or above letters i
 | 29                 | 3.9            |
 | 30                 | 4.0            |
 
-Write a program to eliminate all the letters, in addition to get the highest score you can get.
+If the length of eliminated length `> 30`, the multiplication should remain the same (i.e `= 4.0`).
+
+You task is to write a program to eliminate all the letters, in addition to get the highest score you can get.
 
 No skeleton code is given for this question. Write your own program and add oil (literally me cuz my name is Oil Rabbit) UwU.

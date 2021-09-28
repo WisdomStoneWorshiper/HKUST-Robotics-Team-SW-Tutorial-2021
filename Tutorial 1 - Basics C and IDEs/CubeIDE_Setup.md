@@ -3,18 +3,18 @@
 ---
 
 Author: Leo Wong
-Contact: lywongav@connec.ust.hk
+Contact: lywongav@connect.ust.hk
 
 ## Download & Install
 
 First thing first, please download the STM32CubeIDE from Github [release](https://github.com/HKUST-Robotics-Team/HKUST-Robotics-Team-SW-Tutorial-2021/releases/tag/Installer)
 
 > ![](https://i.imgur.com/s3DFKCY.png)
-> 
+>
 > You can choose which every directory you like to place the project files. Just make sure you can find it after.
 
 > ![](https://i.imgur.com/huv0HIY.png)
-> 
+>
 > J-Link drivers is not needed in this case
 > But definitely check the ST-link drivers cuz we need then to flash(upload) the program to the mainboard.
 
@@ -22,7 +22,7 @@ First thing first, please download the STM32CubeIDE from Github [release](https:
 
 After you have installed the IDE, please follow the steps below to properly setup your **Integrated Development Environment**
 
-Download the code boilerplate we prepared for you from Github.
+Download the code boilerplate we prepared for you from Github [release](https://github.com/HKUST-Robotics-Team/HKUST-Robotics-Team-SW-Tutorial-2021/releases/tag/code).
 _Note that we may have some library changes from time to time. So always follow what the tutorial notes say._
 
 ### Import the project files
@@ -32,33 +32,42 @@ _Note that we may have some library changes from time to time. So always follow 
 > 1. Click Import in File tab
 
 > ![](https://i.imgur.com/cTfTDIK.jpg)
-> 
+>
 > 2. Extract the code boilerplate you have downloaded and select that as root directory. Click finish afterwards.
 
-> ![](https://i.imgur.com/fjDdL1M.jpg)
-> 3. Tada! You have successfully imported the code boilerplate.
+> ![](https://i.imgur.com/fjDdL1M.jpg) 3. Tada! You have successfully imported the code boilerplate.
 
 ---
 
 ### Configure ST-Linkv2
 
+> ![](https://i.imgur.com/TNJrgms.png)
+>
+> 1. Switch build option from Debug to Release
+
 > ![](https://i.imgur.com/8XwVtFQ.png)
 >
-> 1. Click the arrow besides _Run_ and click _Run Configurations..._
+> 2. Click the arrow besides _Run_ and click _Run Configurations..._
 
 > ![](https://i.imgur.com/AtQTnB6.png)
-> 
-> 2.1 Choose STM32 Application the left and select _Debugger_ Tab.
-> 
-> 2.2 Change Debug probe to `ST-LINK (OpenOCD)`
-> 
-> 2.3 Click `Show generator options...` under `Configuration Scripts` to reveal more options.
-> 
-> 2.4 In `Mode Setup`, select `Software system reset` in `Reset Mode`.
+>
+> 3.1 Choose STM32 Application the left and select _Debugger_ Tab.
+>
+> 3.2 Change Debug probe to `ST-LINK (OpenOCD)`
+>
+> 3.3 Click `Show generator options...` under `Configuration Scripts` to reveal more options.
+>
+> 3.4 In `Mode Setup`, select `Software system reset` in `Reset Mode`.
 
 > ![](https://i.imgur.com/Wa5m30S.png)
-> 
->  3. If you see this, you are probably doing right although not exactly...
+>
+> 4. If you see this, you are probably doing right although not exactly...
+
+## Troubleshooting
+
+> ![](https://i.imgur.com/RFDg47S.png)
+>
+> If somehow it says _Program file does not exist_, you can click Search Project and select the correct .elf file. In our case, `Release/SW Tutorial 2021.elf`.
 
 ### More configuration on the IDE
 

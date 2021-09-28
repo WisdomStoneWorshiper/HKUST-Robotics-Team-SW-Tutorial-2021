@@ -7,6 +7,23 @@ Author: Li Ka Yau Elwin
 
 [TOC]
 
+## Tic-Tac-Toe
+
+Have you ever played tic-tac-toe before? It is a simple game for two players, who take turns marking spaces in a 3 X 3 grid. The player who succeeds in placing three of their marks in a diagonal, horizontal, or vertical row is the winner.
+
+You can try this out at: https://playtictactoe.org/
+
+Write a program which two players (PVP) can play this game together.
+> :exclamation: No need to handle non-numerical inputs such as "abc" and "ilovetimwoo")
+
+Skeleton code is provided: [Skeleton Code for "Tic-Tac-Toe"](https://github.com/HKUST-Robotics-Team/Software-Tutorial-2021/tree/master/Tutorial%201%20-%20Basics%20C%20and%20IDEs/Homework_1/Skeleton_Code/Tic-Tac_Toe)
+
+Tips: Using Array and Switch Statement are highly recommanded.
+
+### Bonus
+
+Write a program which only one player can be played with the computer as his / her foe (PVE).
+
 ## Absolute Grading
 
 MATH 1012 and MATH 1013 are harsh. They are graded by your total scores among your homework, mid-term exam and final exam, instead of graded by comparing your total scores to others.
@@ -24,6 +41,8 @@ Following is the score-to-grade table of the two courses:
 
 Write a program, when TAs input your total scores to the program, the program output the corresponding range of your grade.
 
+The program should be terminated when `"quit"` is input.
+
 For example:
 
 Input:
@@ -35,27 +54,9 @@ Output:
 ### Assumption
 
 * `0.0 <= input <= 100.0`
-
-> :exclamation: No need to handle non-numerical inputs such as "abc" and "ilovetimwoo")
+* Either a numerical input, or `"quit"` will be entered.
 
 Skeleton Code is provided: [Skeleton Code for "Absolute Grading"](https://github.com/HKUST-Robotics-Team/Software-Tutorial-2021/blob/master/Tutorial%201%20-%20Basics%20C%20and%20IDEs/Homework_1/Skeleton_Code/Absolute_Grading/main.c)
-
-## Tic-Tac-Toe
-
-Have you ever played tic-tac-toe before? It is a simple game for two players, who take turns marking spaces in a 3 X 3 grid. The player who succeeds in placing three of their marks in a diagonal, horizontal, or vertical row is the winner.
-
-You can try this out at: https://playtictactoe.org/
-
-Write a program which two players (PVP) can play this game together.
-> :exclamation: No need to handle non-numerical inputs such as "abc" and "ilovetimwoo")
-
-Skeleton code is provided: [Skeleton Code for "Tic-Tac-Toe"](https://github.com/HKUST-Robotics-Team/Software-Tutorial-2021/tree/master/Tutorial%201%20-%20Basics%20C%20and%20IDEs/Homework_1/Skeleton_Code/Tic-Tac_Toe)
-
-Tips: Using Array and Switch Statement are highly recommanded.
-
-### Bonus
-
-Write a program which only one player can be played with the computer as his / her foe (PVE).
 
 ## Simple Calculator
 
@@ -108,7 +109,7 @@ Output:
 
 Skeleton Code is provided: [Skeleton Code for "Simple Calculator"](https://github.com/HKUST-Robotics-Team/Software-Tutorial-2021/tree/master/Tutorial%201%20-%20Basics%20C%20and%20IDEs/Homework_1/Skeleton_Code/Simple_Calculator)
 
-## Challenging Question - Score Attack
+## Challenging Question 1 - Score Attack
 
 Let say a string is given to you which only involve 'A', 'B' and 'C'. E.g. 'AACCBBCCCAAA'.
 

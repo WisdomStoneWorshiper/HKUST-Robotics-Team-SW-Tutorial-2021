@@ -92,7 +92,7 @@ Output:
 `12`
 
 Input:
-`9`
+`9.0`
 `/`
 `2`
 
@@ -101,8 +101,10 @@ Output:
 
 ### Assumption
 
-* `<number>`: It should an integral value.
+* `<number>`: It can be an integral / floating point value.
 * When we perform integer devision, unlike C programming, it should return a floating point value instead of an integer.
+  * For example, in C, `15 / 2` returns `7` as left operand and right operand are both integer.
+  * However, for this question, `7.5` should be returned.
 
 Skeleton Code is provided: [Skeleton Code for "Simple Calculator"](https://github.com/HKUST-Robotics-Team/Software-Tutorial-2021/tree/master/Tutorial%201%20-%20Basics%20C%20and%20IDEs/Homework_1/Skeleton_Code/Simple_Calculator)
 

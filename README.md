@@ -125,7 +125,7 @@
 | Nicholas       | nchristanto@connect.ust.hk | 5990 1789 |
 | Dennis         | httsangaj@connect.ust.hk   | 6680 6149 |
 
-!Homework Helper Desk!
+!Homework Helper and Demonstration Desk!
 
 Timetable: https://docs.google.com/spreadsheets/d/1Oj6lQho6lyZYQt_eSras2R_akSVGd54u2OS90ezpOko/edit#gid=0
 

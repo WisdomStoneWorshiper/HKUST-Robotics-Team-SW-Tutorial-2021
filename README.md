@@ -125,6 +125,8 @@
 | Nicholas       | nchristanto@connect.ust.hk | 5990 1789 |
 | Dennis         | httsangaj@connect.ust.hk   | 6680 6149 |
 
-Homework Helper Desk
+!Homework Helper Desk!
+
 Timetable: https://docs.google.com/spreadsheets/d/1Oj6lQho6lyZYQt_eSras2R_akSVGd54u2OS90ezpOko/edit#gid=0
+
 Venue: CYT 3007 (Suggested Route from Atrium to Rm CYT - 3007: https://pathadvisor.ust.hk/search/from/Atrium;tYkl7OmZOcvN;G;2,79/to/ROOM%203007;krOrjjBtRccW;CYT3;165,-231/floor/G/at/normalized/-2,80,3)

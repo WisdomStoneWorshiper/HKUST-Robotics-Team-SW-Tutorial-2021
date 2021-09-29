@@ -129,5 +129,5 @@
 
 Timetable: https://docs.google.com/spreadsheets/d/1Oj6lQho6lyZYQt_eSras2R_akSVGd54u2OS90ezpOko/edit#gid=0
 
-Venue: CYT - 3007
-(Suggested Route from Atrium to Rm CYT - 3007: https://pathadvisor.ust.hk/search/from/Atrium;tYkl7OmZOcvN;G;2,79/to/ROOM%203007;krOrjjBtRccW;CYT3;165,-231/floor/G/at/normalized/-2,80,3)
+Venue: CYT - 3007B
+(Suggested Route from Atrium to Rm CYT - 3007B: https://pathadvisor.ust.hk/from/Atrium;tYkl7OmZOcvN;G;2,79/to/ROOM%203007B;bquKGioRXstb;CYT3;8,-96/floor/CYT3/at/normalized/598,-161,3
